@@ -11,7 +11,7 @@ import streamlit as st
 from PIL import Image
 
 #loading the saved model
-loaded_model = pickle.load(open('F:/BE_Project/model/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_model.sav', 'rb'))
 
 def welcome():
         return 'Welcome to the App'
